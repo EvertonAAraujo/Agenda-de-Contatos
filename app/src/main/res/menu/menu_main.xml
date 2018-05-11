@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.everton.agendadecontatos.MainActivity">
+    <item
+        android:id="@+id/order_az"
+        android:orderInCategory="100"
+        android:title="Ordernar A-Z"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/order_za"
+        android:orderInCategory="100"
+        android:title="Ordernar Z-A"
+        app:showAsAction="never" />
+</menu>
